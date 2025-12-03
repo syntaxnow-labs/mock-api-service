@@ -1,0 +1,31 @@
+server:
+  # Server bind address
+  address: "${HTTP_BIND_ADDRESS:0.0.0.0}"
+  # Server bind port
+  port: "${HTTP_BIND_PORT:9090}"
+  servlet:
+    context-path: /api
+
+management:
+  security:
+    enabled: false
+  server:
+    port: ${MANAGEMENT_SERVER_PORT:8081}
+
+spring:
+  application:
+    name: mock-api-service
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  level:
+    org:
+      springframework: "INFO"
+
+
+

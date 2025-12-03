@@ -1,0 +1,1355 @@
+{
+  "alerts": [
+    {
+      "id": "ALT001",
+      "projectName": "Energy Insights",
+      "deviceId": "900000000365691",
+      "severity": "Warning",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-06T16:27:25.390297Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT002",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000482219",
+      "severity": "Warning",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-11T03:27:25.390340Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT003",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000405650",
+      "severity": "Critical",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-11-11T00:38:25.390359Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT004",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000710940",
+      "severity": "Critical",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-07T11:41:25.390373Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT005",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000798505",
+      "severity": "Critical",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-08T03:44:25.390384Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT006",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000316943",
+      "severity": "Info",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-03T09:07:25.390395Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT007",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000799935",
+      "severity": "Critical",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-03T15:21:25.390409Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT008",
+      "projectName": "AgroSense",
+      "deviceId": "900000000838942",
+      "severity": "Critical",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-11-01T18:47:25.390424Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT009",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000889608",
+      "severity": "Info",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-02T03:25:25.390437Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT010",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000754648",
+      "severity": "Critical",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-10T23:43:25.390447Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT011",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000973255",
+      "severity": "Critical",
+      "message": "Sensor data anomaly detected",
+      "timestamp": "2025-11-04T14:02:25.390457Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT012",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000715894",
+      "severity": "Critical",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-05T19:55:25.390466Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT013",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000739735",
+      "severity": "Info",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-11-06T06:36:25.390477Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT014",
+      "projectName": "Simulation Proj 1",
+      "deviceId": "900000000971303",
+      "severity": "Info",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-10T11:59:25.390485Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT015",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000449824",
+      "severity": "Critical",
+      "message": "SIM inactive or missing",
+      "timestamp": "2025-11-04T10:20:25.390494Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT016",
+      "projectName": "AgroSense",
+      "deviceId": "900000000537075",
+      "severity": "Critical",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-09T22:09:25.390503Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT017",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000788256",
+      "severity": "Warning",
+      "message": "SIM inactive or missing",
+      "timestamp": "2025-11-04T08:51:25.390511Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT018",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000253469",
+      "severity": "Critical",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-03T03:32:25.390521Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT019",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000451972",
+      "severity": "Warning",
+      "message": "Sensor data anomaly detected",
+      "timestamp": "2025-11-02T11:22:25.390531Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT020",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000949294",
+      "severity": "Critical",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-07T02:31:25.390540Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT021",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000910314",
+      "severity": "Warning",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-10-31T02:10:25.390549Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT022",
+      "projectName": "AgroSense",
+      "deviceId": "900000000960627",
+      "severity": "Critical",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-11T02:29:25.390558Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT023",
+      "projectName": "AgroSense",
+      "deviceId": "900000000102593",
+      "severity": "Warning",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-06T18:54:25.390567Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT024",
+      "projectName": "AgroSense",
+      "deviceId": "900000000104269",
+      "severity": "Warning",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-08T10:06:25.390576Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT025",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000727245",
+      "severity": "Warning",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-11-06T21:11:25.390585Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT026",
+      "projectName": "Energy Insights",
+      "deviceId": "900000000256420",
+      "severity": "Critical",
+      "message": "Sensor data anomaly detected",
+      "timestamp": "2025-11-03T11:37:25.390594Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT027",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000948836",
+      "severity": "Info",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-10-30T09:18:25.390603Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT028",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000195031",
+      "severity": "Warning",
+      "message": "High packet loss detected",
+      "timestamp": "2025-10-31T01:25:25.390613Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT029",
+      "projectName": "AgroSense",
+      "deviceId": "900000000181236",
+      "severity": "Warning",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-05T13:06:25.390628Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT030",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000438039",
+      "severity": "Critical",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-01T05:39:25.390649Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT031",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000115919",
+      "severity": "Warning",
+      "message": "Overheating threshold exceeded",
+      "timestamp": "2025-11-02T23:04:25.390659Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT032",
+      "projectName": "Retail Connect",
+      "deviceId": "900000000957882",
+      "severity": "Warning",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-11-03T00:58:25.390668Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT033",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000769350",
+      "severity": "Critical",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-09T01:38:25.390676Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT034",
+      "projectName": "Energy Insights",
+      "deviceId": "900000000610008",
+      "severity": "Critical",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-01T07:18:25.390686Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT035",
+      "projectName": "Energy Insights",
+      "deviceId": "900000000738961",
+      "severity": "Critical",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-02T16:27:25.390701Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT036",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000263580",
+      "severity": "Info",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-03T06:12:25.390715Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT037",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000483952",
+      "severity": "Critical",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-03T16:13:25.390730Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT038",
+      "projectName": "Simulation Proj 1",
+      "deviceId": "900000000318757",
+      "severity": "Warning",
+      "message": "Firmware update failed",
+      "timestamp": "2025-10-31T16:18:25.390745Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT039",
+      "projectName": "Retail Connect",
+      "deviceId": "900000000524295",
+      "severity": "Critical",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-06T01:55:25.390765Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT040",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000263305",
+      "severity": "Critical",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-05T23:13:25.390775Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT041",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000209628",
+      "severity": "Critical",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-04T12:43:25.390784Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT042",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000704056",
+      "severity": "Critical",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-03T04:28:25.390792Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT043",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000612725",
+      "severity": "Info",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-11-09T21:48:25.390801Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT044",
+      "projectName": "Energy Insights",
+      "deviceId": "900000000891319",
+      "severity": "Warning",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-10-31T01:49:25.390810Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT045",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000539311",
+      "severity": "Warning",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-11-05T03:02:25.390821Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT046",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000285474",
+      "severity": "Warning",
+      "message": "SIM inactive or missing",
+      "timestamp": "2025-10-29T18:10:25.390830Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT047",
+      "projectName": "Simulation Proj 1",
+      "deviceId": "900000000338963",
+      "severity": "Warning",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-06T18:39:25.390839Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT048",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000819360",
+      "severity": "Info",
+      "message": "SIM inactive or missing",
+      "timestamp": "2025-11-06T00:58:25.390848Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT049",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000645175",
+      "severity": "Critical",
+      "message": "Sensor data anomaly detected",
+      "timestamp": "2025-11-10T10:04:25.390857Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT050",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000136390",
+      "severity": "Info",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-10-31T05:09:25.390865Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT051",
+      "projectName": "Retail Connect",
+      "deviceId": "900000000805614",
+      "severity": "Critical",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-01T19:00:25.390874Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT052",
+      "projectName": "AgroSense",
+      "deviceId": "900000000368199",
+      "severity": "Warning",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-05T08:21:25.390883Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT053",
+      "projectName": "Simulation Proj 1",
+      "deviceId": "900000000472320",
+      "severity": "Warning",
+      "message": "Sensor data anomaly detected",
+      "timestamp": "2025-11-09T16:48:25.390892Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT054",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000819571",
+      "severity": "Warning",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-11T07:10:25.390901Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT055",
+      "projectName": "Energy Insights",
+      "deviceId": "900000000527817",
+      "severity": "Info",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-04T05:11:25.390910Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT056",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000338786",
+      "severity": "Info",
+      "message": "Overheating threshold exceeded",
+      "timestamp": "2025-11-08T23:02:25.390919Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT057",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000496469",
+      "severity": "Critical",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-09T01:43:25.390929Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT058",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000131435",
+      "severity": "Warning",
+      "message": "High packet loss detected",
+      "timestamp": "2025-10-30T16:53:25.390944Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT059",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000187131",
+      "severity": "Warning",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-06T18:59:25.390958Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT060",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000959892",
+      "severity": "Info",
+      "message": "Firmware update failed",
+      "timestamp": "2025-10-29T13:20:25.390973Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT061",
+      "projectName": "AgroSense",
+      "deviceId": "900000000812871",
+      "severity": "Critical",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-09T16:55:25.390983Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT062",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000303226",
+      "severity": "Warning",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-11T11:45:25.390992Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT063",
+      "projectName": "AgroSense",
+      "deviceId": "900000000544126",
+      "severity": "Warning",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-10T21:11:25.391001Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT064",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000950746",
+      "severity": "Info",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-09T02:51:25.391010Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT065",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000589185",
+      "severity": "Warning",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-01T23:11:25.391018Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT066",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000472001",
+      "severity": "Warning",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-05T00:15:25.391027Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT067",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000339510",
+      "severity": "Info",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-05T16:23:25.391036Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT068",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000324200",
+      "severity": "Warning",
+      "message": "Network latency spike",
+      "timestamp": "2025-10-31T13:38:25.391045Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT069",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000518546",
+      "severity": "Info",
+      "message": "Network latency spike",
+      "timestamp": "2025-10-29T16:59:25.391053Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT070",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000769509",
+      "severity": "Warning",
+      "message": "Network latency spike",
+      "timestamp": "2025-10-29T14:14:25.391063Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT071",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000273141",
+      "severity": "Info",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-11T03:55:25.391072Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT072",
+      "projectName": "Energy Insights",
+      "deviceId": "900000000864259",
+      "severity": "Warning",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-01T08:50:25.391081Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT073",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000765998",
+      "severity": "Critical",
+      "message": "Sensor data anomaly detected",
+      "timestamp": "2025-10-29T14:23:25.391090Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT074",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000457974",
+      "severity": "Warning",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-03T20:09:25.391099Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT075",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000357126",
+      "severity": "Critical",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-04T14:24:25.391107Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT076",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000989452",
+      "severity": "Warning",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-08T09:06:25.391116Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT077",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000484458",
+      "severity": "Warning",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-10T12:04:25.391125Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT078",
+      "projectName": "Retail Connect",
+      "deviceId": "900000000286452",
+      "severity": "Critical",
+      "message": "High packet loss detected",
+      "timestamp": "2025-10-30T09:53:25.391134Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT079",
+      "projectName": "Retail Connect",
+      "deviceId": "900000000722552",
+      "severity": "Warning",
+      "message": "High packet loss detected",
+      "timestamp": "2025-10-31T03:48:25.391143Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT080",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000763692",
+      "severity": "Critical",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-10-31T15:24:25.391152Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT081",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000683082",
+      "severity": "Warning",
+      "message": "SIM inactive or missing",
+      "timestamp": "2025-10-30T10:11:25.391161Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT082",
+      "projectName": "Retail Connect",
+      "deviceId": "900000000800150",
+      "severity": "Warning",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-05T00:02:25.391170Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT083",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000120195",
+      "severity": "Warning",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-01T14:03:25.391178Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT084",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000688834",
+      "severity": "Info",
+      "message": "Sensor data anomaly detected",
+      "timestamp": "2025-11-10T00:11:25.391187Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT085",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000219526",
+      "severity": "Critical",
+      "message": "Overheating threshold exceeded",
+      "timestamp": "2025-10-29T16:50:25.391195Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT086",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000611491",
+      "severity": "Info",
+      "message": "SIM inactive or missing",
+      "timestamp": "2025-11-10T18:57:25.391204Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT087",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000386610",
+      "severity": "Warning",
+      "message": "Overheating threshold exceeded",
+      "timestamp": "2025-11-07T04:18:25.391212Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT088",
+      "projectName": "Retail Connect",
+      "deviceId": "900000000122796",
+      "severity": "Warning",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-03T20:43:25.391221Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT089",
+      "projectName": "Retail Connect",
+      "deviceId": "900000000288528",
+      "severity": "Critical",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-08T08:24:25.391230Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT090",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000294718",
+      "severity": "Warning",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-02T14:20:25.391257Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT091",
+      "projectName": "AgroSense",
+      "deviceId": "900000000624786",
+      "severity": "Critical",
+      "message": "SIM inactive or missing",
+      "timestamp": "2025-11-11T00:07:25.391271Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT092",
+      "projectName": "Energy Insights",
+      "deviceId": "900000000859204",
+      "severity": "Critical",
+      "message": "High packet loss detected",
+      "timestamp": "2025-10-31T14:34:25.391283Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT093",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000208603",
+      "severity": "Warning",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-09T09:15:25.391296Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT094",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000489760",
+      "severity": "Critical",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-06T09:20:25.391310Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT095",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000993674",
+      "severity": "Warning",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-11-01T17:26:25.391323Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT096",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000282857",
+      "severity": "Critical",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-12T04:00:25.391338Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT097",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000321878",
+      "severity": "Warning",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-09T00:19:25.391352Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT098",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000623485",
+      "severity": "Warning",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-03T20:30:25.391368Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT099",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000362193",
+      "severity": "Critical",
+      "message": "Overheating threshold exceeded",
+      "timestamp": "2025-11-10T12:46:25.391382Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT100",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000797664",
+      "severity": "Critical",
+      "message": "Sensor data anomaly detected",
+      "timestamp": "2025-10-29T10:48:25.391399Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT101",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000197204",
+      "severity": "Critical",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-06T00:23:25.391414Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT102",
+      "projectName": "AgroSense",
+      "deviceId": "900000000448640",
+      "severity": "Warning",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-06T21:22:25.391429Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT103",
+      "projectName": "Retail Connect",
+      "deviceId": "900000000719645",
+      "severity": "Critical",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-11-10T16:40:25.391443Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT104",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000589881",
+      "severity": "Critical",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-11-11T06:20:25.391457Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT105",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000862344",
+      "severity": "Info",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-10T22:10:25.391471Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT106",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000895127",
+      "severity": "Warning",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-12T02:21:25.391481Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT107",
+      "projectName": "Energy Insights",
+      "deviceId": "900000000495243",
+      "severity": "Info",
+      "message": "SIM inactive or missing",
+      "timestamp": "2025-11-11T06:30:25.391489Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT108",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000911591",
+      "severity": "Info",
+      "message": "Network latency spike",
+      "timestamp": "2025-10-31T02:27:25.391498Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT109",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000903462",
+      "severity": "Warning",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-05T15:01:25.391507Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT110",
+      "projectName": "AgroSense",
+      "deviceId": "900000000854134",
+      "severity": "Critical",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-12T06:28:25.391516Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT111",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000111226",
+      "severity": "Critical",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-01T22:48:25.391525Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT112",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000555312",
+      "severity": "Info",
+      "message": "SIM inactive or missing",
+      "timestamp": "2025-11-04T04:54:25.391533Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT113",
+      "projectName": "Energy Insights",
+      "deviceId": "900000000736820",
+      "severity": "Critical",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-09T08:04:25.391542Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT114",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000991545",
+      "severity": "Critical",
+      "message": "Sensor data anomaly detected",
+      "timestamp": "2025-11-01T18:19:25.391551Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT115",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000808494",
+      "severity": "Warning",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-09T01:20:25.391560Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT116",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000683605",
+      "severity": "Critical",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-08T02:10:25.391569Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT117",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000843055",
+      "severity": "Warning",
+      "message": "Sensor data anomaly detected",
+      "timestamp": "2025-11-05T12:25:25.391578Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT118",
+      "projectName": "AgroSense",
+      "deviceId": "900000000944560",
+      "severity": "Warning",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-03T08:11:25.391587Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT119",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000457073",
+      "severity": "Info",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-04T02:06:25.391596Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT120",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000384924",
+      "severity": "Warning",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-12T06:53:25.391606Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT121",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000574505",
+      "severity": "Info",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-10T11:16:25.391616Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT122",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000952840",
+      "severity": "Critical",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-12T00:04:25.391625Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT123",
+      "projectName": "Simulation Proj 1",
+      "deviceId": "900000000626738",
+      "severity": "Info",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-04T05:58:25.391634Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT124",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000165623",
+      "severity": "Critical",
+      "message": "SIM inactive or missing",
+      "timestamp": "2025-10-31T11:12:25.391643Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT125",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000340215",
+      "severity": "Critical",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-11T23:25:25.391651Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT126",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000447618",
+      "severity": "Critical",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-11T03:48:25.391660Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT127",
+      "projectName": "Warehouse Sensors",
+      "deviceId": "900000000797946",
+      "severity": "Info",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-04T04:03:25.391669Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT128",
+      "projectName": "Simulation Proj 1",
+      "deviceId": "900000000532853",
+      "severity": "Warning",
+      "message": "High packet loss detected",
+      "timestamp": "2025-10-30T23:18:25.391678Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT129",
+      "projectName": "AgroSense",
+      "deviceId": "900000000923020",
+      "severity": "Critical",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-07T00:15:25.391687Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT130",
+      "projectName": "Simulation Proj 1",
+      "deviceId": "900000000287941",
+      "severity": "Warning",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-04T14:15:25.391701Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT131",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000164817",
+      "severity": "Info",
+      "message": "High packet loss detected",
+      "timestamp": "2025-10-30T18:17:25.391715Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT132",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000851175",
+      "severity": "Critical",
+      "message": "Network latency spike",
+      "timestamp": "2025-10-31T06:07:25.391730Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT133",
+      "projectName": "Fleet Automation",
+      "deviceId": "900000000268392",
+      "severity": "Warning",
+      "message": "Sensor data anomaly detected",
+      "timestamp": "2025-10-31T21:03:25.391748Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT134",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000961373",
+      "severity": "Info",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-11-07T17:08:25.391757Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT135",
+      "projectName": "AgroSense",
+      "deviceId": "900000000338881",
+      "severity": "Warning",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-09T05:11:25.391769Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT136",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000391531",
+      "severity": "Critical",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-09T15:55:25.391783Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT137",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000741834",
+      "severity": "Warning",
+      "message": "SIM inactive or missing",
+      "timestamp": "2025-11-09T08:40:25.391799Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT138",
+      "projectName": "AgroSense",
+      "deviceId": "900000000462960",
+      "severity": "Warning",
+      "message": "Network latency spike",
+      "timestamp": "2025-11-01T21:38:25.391812Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT139",
+      "projectName": "AeroTrack",
+      "deviceId": "900000000132192",
+      "severity": "Warning",
+      "message": "Network latency spike",
+      "timestamp": "2025-10-30T10:49:25.391826Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT140",
+      "projectName": "Simulation Proj 1",
+      "deviceId": "900000000666399",
+      "severity": "Critical",
+      "message": "Overheating threshold exceeded",
+      "timestamp": "2025-11-03T07:04:25.391840Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT141",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000749900",
+      "severity": "Critical",
+      "message": "Overheating threshold exceeded",
+      "timestamp": "2025-11-02T09:59:25.391856Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT142",
+      "projectName": "Energy Insights",
+      "deviceId": "900000000879197",
+      "severity": "Critical",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-11T09:30:25.391868Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT143",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000854236",
+      "severity": "Critical",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-11T18:48:25.391877Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT144",
+      "projectName": "Edge Analytics",
+      "deviceId": "900000000793547",
+      "severity": "Warning",
+      "message": "Device disconnected for >30 minutes",
+      "timestamp": "2025-11-05T09:08:25.391887Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT145",
+      "projectName": "AgroSense",
+      "deviceId": "900000000942299",
+      "severity": "Warning",
+      "message": "Unexpected reboot event",
+      "timestamp": "2025-11-02T08:15:25.391896Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT146",
+      "projectName": "TransitIQ",
+      "deviceId": "900000000237457",
+      "severity": "Warning",
+      "message": "Firmware update failed",
+      "timestamp": "2025-11-02T14:39:25.391910Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT147",
+      "projectName": "Smart City Grid",
+      "deviceId": "900000000788736",
+      "severity": "Warning",
+      "message": "Sensor data anomaly detected",
+      "timestamp": "2025-10-29T21:11:25.391924Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT148",
+      "projectName": "AgroSense",
+      "deviceId": "900000000806338",
+      "severity": "Warning",
+      "message": "Network latency spike",
+      "timestamp": "2025-10-30T04:20:25.391939Z",
+      "acknowledged": false
+    },
+    {
+      "id": "ALT149",
+      "projectName": "Retail Connect",
+      "deviceId": "900000000845133",
+      "severity": "Warning",
+      "message": "High packet loss detected",
+      "timestamp": "2025-11-03T21:00:25.391953Z",
+      "acknowledged": true
+    },
+    {
+      "id": "ALT150",
+      "projectName": "Energy Insights",
+      "deviceId": "900000000711500",
+      "severity": "Critical",
+      "message": "Data usage exceeded 90%",
+      "timestamp": "2025-11-05T21:19:25.391965Z",
+      "acknowledged": false
+    }
+  ],
+  "totalRecords": 150
+}
