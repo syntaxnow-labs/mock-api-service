@@ -15,7 +15,7 @@ MockAPI is a lightweight Spring Boot service that generates synthetic data and e
  - In-memory data simulation
 
 ## Why use it
-MockAPI helps teams build, iterate, and demo features at lightning speed without waiting for backend systems, schemas, or databases to exist.
+ - MockAPI helps teams build, iterate, and demo features at lightning speed without waiting for backend systems, schemas, or databases to exist.
 ---
 
 ## Features
