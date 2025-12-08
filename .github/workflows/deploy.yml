@@ -5,6 +5,11 @@ on:
     branches: [ main, dev ]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  packages: write
+  actions: read
+
 jobs:
   deploy:
     uses: syntaxnow-labs/workflow-platform/.github/workflows/deploy-gitops.yml@main
