@@ -12,7 +12,7 @@
     <artifactId>mock-api-service</artifactId>
     <version>1.0.0</version>
     <name>MockAPI Service</name>
-    <description>MockAPI is a lightweight service that generates synthetic data and exposes fully functional mock REST endpoints, making it easy to prototype dashboards, test integrations, and build UIs without relying on real backends.</description>
+    <description>MockAPI is a lightweight service that generates synthetic data and exposes fully functional mock REST endpoints, making it easy to prototype dashboards, test integrations, and build UIs without relying on real backends...</description>
     <properties>
         <java.version>17</java.version>
         <maven.compiler.source>17</maven.compiler.source>
