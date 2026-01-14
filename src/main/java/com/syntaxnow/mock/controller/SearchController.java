@@ -6,7 +6,7 @@ import com.syntaxnow.mock.model.Project;
 import com.syntaxnow.mock.model.search.SearchResponse;
 import com.syntaxnow.mock.repository.AlertRepository;
 import com.syntaxnow.mock.repository.DeviceRepository;
-import com.syntaxnow.mock.repository.ProjectRepo;
+import com.syntaxnow.mock.repository.ProjectRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,7 +21,7 @@ import java.util.Locale;
 @AllArgsConstructor
 public class SearchController {
 
-    private final ProjectRepo projectRepo;
+    private final ProjectRepository projectRepo;
     private final DeviceRepository deviceRepo;
     private final AlertRepository alertRepo;
 
