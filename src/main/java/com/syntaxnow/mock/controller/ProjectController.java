@@ -3,25 +3,20 @@ package com.syntaxnow.mock.controller;
 
 import com.syntaxnow.mock.model.Project;
 import com.syntaxnow.mock.model.ProjectResponse;
-import com.syntaxnow.mock.repository.ProjectRepo;
+import com.syntaxnow.mock.repository.ProjectRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 import java.time.Instant;
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/projects")
 @AllArgsConstructor
 public class ProjectController {
 
-    private final ProjectRepo repository;
+    private final ProjectRepository repository;
 
     @GetMapping
     public ProjectResponse getAll() {
@@ -42,28 +37,16 @@ public class ProjectController {
         return ResponseEntity.ok(project);
     }
 
-    @PutMapping(path = "/{id}")
+    @PutMapping("/{id}")
     public ResponseEntity<Project> update(@PathVariable String id, @RequestBody Project updated) {
         updated.setId(id);
-        repository.save(updated);
+        repository.update(updated);
         return ResponseEntity.ok(updated);
     }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable String id) {
-        repository.deleteById(id);
+        repository.delete(id);
         return ResponseEntity.noContent().build();
     }
-
-    @GetMapping("/getByStatus")
-    public List<Project> getStatus(@RequestParam String serviceStatus) {
-        return repository.findByServiceStatusOrderById(serviceStatus);
-    }
-
-    @GetMapping("/projects")
-    public Page<Project> getProjects(Pageable  pageable) {
-        return repository.findAll(pageable);
-    }
 }
-
-
